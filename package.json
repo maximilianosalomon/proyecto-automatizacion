@@ -1,0 +1,20 @@
+{
+  "name": "proyecto1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gosass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximilianosalomon/proyecto-automatizacion.git"
+  },
+  "author": "Maximiliano Salomon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximilianosalomon/proyecto-automatizacion/issues"
+  },
+  "homepage": "https://github.com/maximilianosalomon/proyecto-automatizacion#readme"
+}
