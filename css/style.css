@@ -20,12 +20,12 @@ html {
 /***MEDIA-QUERY***/
 @media only screen and (max-width: 992px) {
   html {
-    font-size: 60%;
+    font-size: 70%;
   }
 }
 @media only screen and (max-width: 768px) {
   html {
-    font-size: 50%;
+    font-size: 60%;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -35,7 +35,7 @@ html {
 }
 @media only screen and (max-width: 320px) {
   html {
-    font-size: 50%;
+    font-size: 45%;
   }
 }
 .navbar--bgcolor {
