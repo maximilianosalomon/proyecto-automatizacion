@@ -1,0 +1,20 @@
+.footer--bgcolor {
+  background-color: $gunmetal;
+}
+.footer__txt--color {
+  color: $light-cyan;
+}
+
+.btn--radius {
+  border-radius: 10px;
+}
+
+.btn__link--style {
+  text-decoration: none;
+  color: $light-cyan;
+}
+.btn__link--style :hover,
+.btn--style :hover {
+  text-decoration: none;
+  color: $light-cyan;
+}
