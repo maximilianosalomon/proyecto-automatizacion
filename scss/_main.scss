@@ -22,12 +22,9 @@ main {
 }
 .tituloHome {
   @extend .titulo;
-  font-size: 5rem;
-  font-weight: 500;
   color: $light-cyan;
   text-shadow: 0.25rem 0.25rem 0.012rem $gunmetal;
 }
 main p {
   color: $gunmetal;
-  font-size: $size-titulo/2;
 }

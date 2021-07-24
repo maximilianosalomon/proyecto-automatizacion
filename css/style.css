@@ -23,11 +23,13 @@ html {
     font-size: 70%;
   }
 }
+/*
 @media only screen and (max-width: 768px) {
   html {
     font-size: 60%;
   }
 }
+/*
 @media only screen and (max-width: 480px) {
   html {
     font-size: 50%;
@@ -38,6 +40,7 @@ html {
     font-size: 45%;
   }
 }
+*/
 .navbar--bgcolor {
   background-color: #3d5a80ff;
 }
@@ -69,15 +72,12 @@ main {
 }
 
 .tituloHome {
-  font-size: 5rem;
-  font-weight: 500;
   color: #e0fbfcff;
   text-shadow: 0.25rem 0.25rem 0.012rem #293241ff;
 }
 
 main p {
   color: #293241ff;
-  font-size: 1.5rem;
 }
 
 .footer--bgcolor {
