@@ -81,13 +81,13 @@
                     aria-labelledby="navbarDropdown"
                   >
                     <li>
-                      <a class="dropdown-item" href="#">Tipo de productos A</a>
+                      <a class="dropdown-item" href="#">Para proyectos simples</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">Tipo de productos B</a>
+                      <a class="dropdown-item" href="#">Para proyectos avanzados</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">Tipo de productos C</a>
+                      <a class="dropdown-item" href="#">Para proyectos complejos</a>
                     </li>
                     <li><hr class="dropdown-divider" /></li>
                     <a class="dropdown-item" href="productos/productos.html"
@@ -136,10 +136,11 @@
         <h1 class="tituloHome text-center">Automatización y Control</h1>
       </div>
     </div>
-      <section>
-        <div class="container my-5 card card-body">
-          <h2>Automatización</h2>
-          <p class="text-justify">
+      <section class="container-fluid d-flex flex-column p-5">
+        <div class="container-fluid d-flex flex-lg-row mb-2 p-5 card card-body">
+          <div class="container fluid p-3">
+            <h2>Automatización</h2>
+            <p class="text-justify">
             Actualización total o parcial de los sistemas de control, maquinaria
             o proyectos. Modificaciones eléctricas, electrónicas, de máquinas o
             sistemas.
@@ -150,11 +151,14 @@
             Integración de equipos dentro de la celda productiva, desarrollo e
             implementación de interfaces Desarrollo y construcción de sistemas
             de movimiento de materiales.
-          </p>
+            </p>
+          </div>
+          <img src="automatizacion.png" class="p-3" alt="automatizacion">
         </div>
-        <div class="container my-5 card card-body">
-          <h2>Asistencia técnica</h2>
-          <p class="text-justify">
+        <div class="container-fluid d-flex flex-lg-row mb-2 p-5 card card-body">
+          <div class="container fluid p-3">
+            <h2>Asistencia técnica</h2>
+            <p class="text-justify">
             Independientemente de la asistencia a las máquinas instaladas por
             nosotros, ya sea provenientes de nuestra representadas o los
             automatismos realizados, también asistimos otros tipos de
@@ -167,7 +171,9 @@
             técnico-comercial que se encarga, mediante una extensa lista de
             contactos a nivel mundial, de localizar y gestionar la adquisición
             de repuestos.
-          </p>
+            </p>
+          </div>
+          <img src="asistencia.png" class="p-3" alt="asistencia">
         </div>
       </section>
     </main>
@@ -187,29 +193,39 @@
           <div class="col-md-6 my-auto mx-auto text-center">
             <button
               type="button"
-              class="btn--style btn btn-outline-primary btn--radius"
+              class="btn--style btn btn-outline-primary btn--radius m-1"
             >
               <a href="https://www.facebook.com/" class="btn__link--style"
                 >Facebook</a
               >
             </button>
-            <button class="btn btn-outline-primary my-2 btn--radius">
+            <button
+              type="button"
+              class="btn--style btn btn-outline-primary btn--radius m-1"
+            >
               <a href="https://www.twitter.com/" class="btn__link--style"
                 >Twitter</a
               >
             </button>
-            <button class="btn btn-outline-primary my-2 btn--radius">
+            <button
+              type="button"
+              class="btn--style btn btn-outline-primary btn--radius m-1"
+            >
               <a href="https://www.instagram.com/" class="btn__link--style"
                 >Instagram</a
               >
             </button>
-            <button class="btn btn-outline-primary my-2 btn--radius">
+            <button
+              type="button"
+              class="btn--style btn btn-outline-primary btn--radius m-1"
+            >
               <a href="https://www.linkedin.com/" class="btn__link--style"
                 >Linkedin</a
               >
             </button>
+            <!--Boton para susbcripción al newsletter-->
             <button
-              class="btn btn-danger btn--radius"
+              class="btn btn-danger btn--radius m-1"
               type="button"
               data-bs-toggle="offcanvas"
               data-bs-target="#offcanvasTop"
