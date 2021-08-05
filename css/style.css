@@ -1,127 +1,17 @@
-@charset "UTF-8";
-/*------Colores------*/
-/* CSS HEX */
-/*------tamaños------*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
-  text-decoration: none;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 7 | @import "productos";
+ *   |         ^^^^^^^^^^^
+ *   '
+ *   scss\style.scss 7:9  root stylesheet */
 
-html {
-  font-size: 85%;
-  /*62.5%;*/
-  /*--- 1rem = 10px ---*/
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 7 \2502  @import \"productos\";\d\a   \2502          ^^^^^^^^^^^\a   \2575 \a   scss\\style.scss 7:9  root stylesheet";
 }
-
-h6 {
-  font-size: x-large;
-  visibility: hidden;
-}
-
-/***MEDIA-QUERY***/
-@media only screen and (max-width: 992px) {
-  html {
-    font-size: 80%;
-  }
-
-  .iframe--size {
-    height: 400px;
-  }
-}
-.navbar--bgcolor {
-  background-color: #3d5a80ff;
-}
-
-main {
-  min-height: 60vh;
-}
-
-.img--shadow {
-  box-shadow: 1px 1px 5px 1px #293241ff;
-}
-.img--shadow:hover {
-  width: 99%;
-  box-shadow: 1px 1px 5px 1px #98c1d9ff;
-}
-
-.titulo, .tituloHome {
-  color: #293241ff;
-  font-size: 3rem;
-  font-weight: 400;
-}
-
-/*Imagen titulo Home*/
-.caja__bgImg {
-  background-image: url(../machine_img.jpg);
-  background-size: cover;
-  height: 80vh;
-  width: 100%;
-}
-
-.tituloHome {
-  color: #e0fbfcff;
-  text-shadow: 0.25rem 0.25rem 0.012rem #293241ff;
-}
-
-main p {
-  color: #293241ff;
-}
-
-.footer--bgcolor {
-  background-color: #293241ff;
-}
-
-.footer__txt--color {
-  color: #e0fbfcff;
-}
-
-.btn--radius {
-  border-radius: 10px;
-}
-
-.btn__link--style {
-  text-decoration: none;
-  color: #e0fbfcff;
-}
-
-.btn__link--style :hover,
-.btn--style :hover {
-  text-decoration: none;
-  color: #e0fbfcff;
-}
-
-/*Miniaturas img de productos con hover*/
-.prod__jz {
-  min-height: 100%;
-  background-image: url(../productos/jz20.jpg);
-  background-size: cover;
-}
-.prod__jz:hover {
-  background: linear-gradient(0deg, rgba(41, 50, 65, 0.85), rgba(41, 50, 65, 0.85)), url(../productos/jz20.jpg);
-  background-size: cover;
-}
-.prod__jz:hover h6 {
-  color: #e0fbfcff;
-  transition: all 0.5s ease-in-out;
-  visibility: visible;
-}
-
-.prod__sm70 {
-  min-height: 100%;
-  background-image: url(../productos/sm70.jpg);
-  background-size: cover;
-}
-.prod__sm70:hover {
-  background: linear-gradient(0deg, rgba(41, 50, 65, 0.85), rgba(41, 50, 65, 0.85)), url(../productos/sm70.jpg);
-  background-size: cover;
-}
-.prod__sm70:hover h6 {
-  color: #e0fbfcff;
-  transition: all 0.5s ease-in-out;
-  visibility: visible;
-}
-
-/*# sourceMappingURL=style.css.map */
