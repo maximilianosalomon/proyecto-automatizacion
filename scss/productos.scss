@@ -1,0 +1,42 @@
+/*Miniaturas img de productos con hover*/
+
+.prod__jz {
+  min-height: 100%;
+  background-image: url(../productos/jz20.jpg);
+  background-size: cover;
+
+  &:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(41, 50, 65, 0.85),
+        rgba(41, 50, 65, 0.85)
+      ),
+      url(../productos/jz20.jpg);
+    background-size: cover;
+    h6 {
+      color: $light-cyan;
+      transition: all 0.5s ease-in-out;
+      visibility: visible;
+    }
+  }
+}
+.prod__sm70 {
+  min-height: 100%;
+  background-image: url(../productos/sm70.jpg);
+  background-size: cover;
+
+  &:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(41, 50, 65, 0.85),
+        rgba(41, 50, 65, 0.85)
+      ),
+      url(../productos/sm70.jpg);
+    background-size: cover;
+    h6 {
+      color: $light-cyan;
+      transition: all 0.5s ease-in-out;
+      visibility: visible;
+    }
+  }
+}
