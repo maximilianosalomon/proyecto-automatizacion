@@ -1,17 +1,96 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 7 | @import "productos";
- *   |         ^^^^^^^^^^^
- *   '
- *   scss\style.scss 7:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 7 \2502  @import \"productos\";\d\a   \2502          ^^^^^^^^^^^\a   \2575 \a   scss\\style.scss 7:9  root stylesheet";
+@charset "UTF-8";
+/*------Colores------*/
+/* CSS HEX */
+/*------tamaños------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
 }
+
+html {
+  font-size: 85%;
+  /*62.5%;*/
+  /*--- 1rem = 10px ---*/
+}
+
+h6 {
+  font-size: x-large;
+  visibility: hidden;
+}
+
+/***MEDIA-QUERY***/
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 80%;
+  }
+
+  .iframe--size {
+    height: 400px;
+  }
+}
+.navbar--bgcolor {
+  background-color: #3d5a80ff;
+}
+
+main {
+  min-height: 60vh;
+}
+
+.img--shadow {
+  box-shadow: 1px 1px 5px 1px #293241ff;
+}
+.img--shadow:hover {
+  width: 99%;
+  box-shadow: 1px 1px 5px 1px #98c1d9ff;
+}
+
+.titulo, .tituloHome {
+  color: #293241ff;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+/*Imagen titulo Home*/
+.caja__bgImg {
+  background-image: url(../machine_img.jpg);
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+}
+
+.tituloHome {
+  color: #e0fbfcff;
+  text-shadow: 0.25rem 0.25rem 0.012rem #293241ff;
+}
+
+main p {
+  color: #293241ff;
+}
+
+.footer--bgcolor {
+  background-color: #293241ff;
+}
+
+.footer__txt--color {
+  color: #e0fbfcff;
+}
+
+.btn--radius {
+  border-radius: 10px;
+}
+
+.btn__link--style {
+  text-decoration: none;
+  color: #e0fbfcff;
+}
+
+.btn__link--style :hover,
+.btn--style :hover {
+  text-decoration: none;
+  color: #e0fbfcff;
+}
+
+/*# sourceMappingURL=style.css.map */
